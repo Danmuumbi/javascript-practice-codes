@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Consultancy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB4WXxhwfunRRcXik-Y5stLe73eFws1b35gA&s') center center/cover no-repeat;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .services, .testimonials, .contact, .about, .clients {
+            padding: 60px 0;
+        }
+        .about img, .services img, .clients img {
+            max-width: 100%;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 60px 0;
+        }
+        .footer a {
+            color: #d4d4d4;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to Our HR Consultancy</h1>
+            <p>Your Partner in Professional HR Solutions</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="about-image.jpg" alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <p>We provide comprehensive HR solutions to help businesses manage their human resources effectively. Our team of experienced professionals is dedicated to offering customized solutions tailored to your unique needs. Whether you need recruitment, training, or strategic HR consulting, we are here to support your business growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="recruitment.jpg" alt="Recruitment">
+                    <h3>Recruitment</h3>
+                    <p>We help you find the right talent for your organization with our comprehensive recruitment services.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="training.jpg" alt="Training">
+                    <h3>Training & Development</h3>
+                    <p>Our training programs are designed to enhance the skills and performance of your workforce.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="consulting.jpg" alt="Consulting">
+                    <h3>HR Consulting</h3>
+                    <p>We offer strategic HR consulting to optimize your HR processes and improve efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="text-center">What Our Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"This consultancy transformed our HR department."</p>
+                        <footer class="blockquote-footer">Client A</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Professional and efficient service."</p>
+                        <footer class="blockquote-footer">Client B</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Highly recommend their HR solutions."</p>
+                        <footer class="blockquote-footer">Client C</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Clients</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <img src="client1-logo.jpg" alt="Client 1">
+                </div>
+                <div class="col-md-3">
+                    <img src="client2-logo.jpg" alt="Client 2">
+                </div>
+                <div class="col-md-3">
+                    <img src="client3-logo.jpg" alt="Client 3">
+                </div>
+                <div class="col-md-3">
+                    <img src="client4-logo.jpg" alt="Client 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>We provide comprehensive HR solutions to help businesses manage their human resources effectively.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Information</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:info@hrconsultancy.com">info@hrconsultancy.com</a></li>
+                        <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+                        <li>123 HR Street, Business City, Country</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2024 HR Consultancy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
